@@ -1,4 +1,3 @@
-// Global variables
 let cartCount = 0;
 let filteredProducts = [...products];
 let activeFilters = {
@@ -7,13 +6,12 @@ let activeFilters = {
     flavours: []
 };
 
-// Initialize
 document.addEventListener('DOMContentLoaded', () => {
     initCart();
     const path = window.location.pathname;
     
     if (path.includes('index.html') || path === '/' || path.endsWith('/')) {
-        // Home page - no additional rendering needed
+        renderBestSellers();
     } else if (path.includes('products.html')) {
         renderProductsPage();
     } else if (path.includes('product-detail.html')) {
@@ -74,6 +72,34 @@ function generateStars(rating) {
     for (let i = 0; i < empty; i++) stars += '☆';
     
     return stars;
+}
+
+// Render Best Sellers on Homepage
+function renderBestSellers() {
+    const grid = document.getElementById('bestSellersGrid');
+    if (!grid) return;
+    
+    // Get first 4 products for best sellers
+    const bestSellers = products.slice(0, 4);
+    
+    grid.innerHTML = bestSellers.map(p => `
+        <div class="bestseller-card" onclick="goToProduct(${p.id})">
+            <div class="bestseller-image">
+                <img src="${p.image}" alt="${p.name}">
+            </div>
+            <div class="bestseller-info">
+                <h3>${p.name}</h3>
+                <div class="bestseller-price">
+                    $${p.price.toFixed(2)}
+                    ${p.oldPrice ? `<span class="bestseller-price-old">$${p.oldPrice.toFixed(2)}</span>` : ''}
+                </div>
+                <div class="bestseller-rating">
+                    <span class="bestseller-stars">${generateStars(p.rating)}</span>
+                    <span class="bestseller-reviews">${p.reviews} Reviews</span>
+                </div>
+            </div>
+        </div>
+    `).join('');
 }
 
 // Products Page
@@ -311,7 +337,6 @@ function renderProductDetail() {
     }
 }
 
-
 function changeImage(src, thumb) {
     const mainImg = document.getElementById('mainImage');
     if (mainImg) {
@@ -321,7 +346,6 @@ function changeImage(src, thumb) {
     document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
     thumb.classList.add('active');
 }
-
 
 function buyNow() {
     cartCount++;

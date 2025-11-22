@@ -9,9 +9,9 @@ const products = [
         oldPrice: 167.88,
         rating: 5,
         reviews: 32,
-        image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=600&h=600&fit=crop&auto=format",
-        badge: "232",
-        description: "Your new cooking BFF! You can add this to virtually everything. Try it on rice, on meat or tofu, in your burger, ramen and pretty much anything. These award winning products will have your taste buds lingering for more...and potentially create an addiction."
+        image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Your new cooking BFF! You can add this to virtually everything."
     },
     {
         id: 2,
@@ -21,11 +21,11 @@ const products = [
         flavour: "Chili Miso",
         price: 13.99,
         oldPrice: null,
-        rating: 4,
+        rating: 5,
         reviews: 24,
-        image: "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?w=600&h=600&fit=crop&auto=format",
-        badge: "Best Seller",
-        description: "Our signature chili miso paste that brings the perfect balance of heat and umami to any dish. Made with premium organic ingredients."
+        image: "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?w=400&h=400&fit=crop",
+        badge: "SOFI 2020",
+        description: "Our signature chili miso paste that brings the perfect balance of heat and umami."
     },
     {
         id: 3,
@@ -36,10 +36,10 @@ const products = [
         price: 19.99,
         oldPrice: 24.00,
         rating: 5,
-        reviews: 12,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop&auto=format",
+        reviews: 24,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=400&fit=crop",
         badge: null,
-        description: "Three delicious miso soup varieties in one convenient pack. Perfect for quick, nutritious meals."
+        description: "Three delicious miso soup varieties in one convenient pack."
     },
     {
         id: 4,
@@ -51,9 +51,9 @@ const products = [
         oldPrice: null,
         rating: 5,
         reviews: 24,
-        image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600&h=600&fit=crop&auto=format",
-        badge: "230",
-        description: "Premium ceremonial grade matcha powder. Perfect for lattes, smoothies, or traditional tea ceremony."
+        image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&h=400&fit=crop",
+        badge: "232",
+        description: "Premium ceremonial grade matcha powder."
     },
     {
         id: 5,
@@ -65,9 +65,9 @@ const products = [
         oldPrice: null,
         rating: 4.7,
         reviews: 124,
-        image: "https://images.unsplash.com/photo-1589729132389-8f0e0b55b91e?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1589729132389-8f0e0b55b91e?w=400&h=400&fit=crop",
         badge: null,
-        description: "Rich and savory garlic-infused miso paste. Adds depth and flavor to stir-fries, marinades, and dressings."
+        description: "Rich and savory garlic-infused miso paste."
     },
     {
         id: 6,
@@ -79,9 +79,9 @@ const products = [
         oldPrice: null,
         rating: 4.5,
         reviews: 67,
-        image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=400&fit=crop",
         badge: null,
-        description: "Classic organic miso soup with tofu and seaweed. Ready in minutes, authentic Japanese flavor."
+        description: "Classic organic miso soup with tofu and seaweed."
     },
     {
         id: 7,
@@ -93,9 +93,9 @@ const products = [
         oldPrice: null,
         rating: 4.8,
         reviews: 98,
-        image: "https://images.unsplash.com/photo-1617817824775-33c8d451d063?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1617817824775-33c8d451d063?w=400&h=400&fit=crop",
         badge: null,
-        description: "Nutty sesame seeds combined with our signature miso blend. Perfect for noodles and grain bowls."
+        description: "Nutty sesame seeds combined with our signature miso blend."
     },
     {
         id: 8,
@@ -107,9 +107,9 @@ const products = [
         oldPrice: null,
         rating: 4.6,
         reviews: 145,
-        image: "https://images.unsplash.com/photo-1536013266865-a6e0ce1b2cfd?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1536013266865-a6e0c04616a7?w=400&h=400&fit=crop",
         badge: null,
-        description: "Convenient sweetened matcha latte mix. Just add hot water or milk for a perfect café-style drink."
+        description: "Convenient sweetened matcha latte mix."
     },
     {
         id: 9,
@@ -121,9 +121,9 @@ const products = [
         oldPrice: 59.96,
         rating: 4.9,
         reviews: 178,
-        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=400&fit=crop",
         badge: null,
-        description: "Four levels of heat to explore. From mild to extra spicy, discover your perfect heat level."
+        description: "Four levels of heat to explore."
     },
     {
         id: 10,
@@ -135,9 +135,9 @@ const products = [
         oldPrice: null,
         rating: 4.4,
         reviews: 54,
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop",
         badge: "New",
-        description: "Unique blend of specialty coffee and miso. A surprising combination that coffee lovers adore."
+        description: "Unique blend of specialty coffee and miso."
     },
     {
         id: 11,
@@ -149,9 +149,9 @@ const products = [
         oldPrice: null,
         rating: 4.7,
         reviews: 91,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=400&fit=crop",
         badge: null,
-        description: "Traditional miso soup with a spicy kick. Perfect for cold days or when you need extra warmth."
+        description: "Traditional miso soup with a spicy kick."
     },
     {
         id: 12,
@@ -163,19 +163,92 @@ const products = [
         oldPrice: null,
         rating: 5,
         reviews: 234,
-        image: "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=600&h=600&fit=crop&auto=format",
+        image: "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=400&h=400&fit=crop",
         badge: "Premium",
-        description: "Highest quality ceremonial grade matcha from Uji, Japan. Vibrant green color and smooth taste."
+        description: "Highest quality ceremonial grade matcha from Uji, Japan."
+    },
+    {
+        id: 13,
+        name: "OKAZU Original Set (6 jars)",
+        category: "Chili oil,Okazu",
+        type: "Multi Set",
+        flavour: "Mixed",
+        price: 78.00,
+        oldPrice: 89.94,
+        rating: 5,
+        reviews: 56,
+        image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Six jar variety pack of our best sellers."
+    },
+    {
+        id: 14,
+        name: "Instant Miso Soup - Wakame",
+        category: "Miso Soup",
+        type: "Single Pack",
+        flavour: "Wakame",
+        price: 8.99,
+        oldPrice: null,
+        rating: 4.5,
+        reviews: 43,
+        image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Classic wakame seaweed miso soup."
+    },
+    {
+        id: 15,
+        name: "ABO Matcha Latte Powder",
+        category: "Instant Matcha",
+        type: "Single Pack",
+        flavour: "Latte",
+        price: 28.00,
+        oldPrice: null,
+        rating: 4.8,
+        reviews: 87,
+        image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&h=400&fit=crop",
+        badge: "230",
+        description: "Premium matcha latte powder."
+    },
+    {
+        id: 16,
+        name: "OKAZU Black Garlic (230mL)",
+        category: "Chili oil,Okazu",
+        type: "Single Pack",
+        flavour: "Black Garlic",
+        price: 15.99,
+        oldPrice: null,
+        rating: 4.9,
+        reviews: 112,
+        image: "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Aged black garlic miso blend."
+    },
+    {
+        id: 17,
+        name: "Miso Soup Variety Pack",
+        category: "Miso Soup",
+        type: "Multi Set",
+        flavour: "Mixed",
+        price: 24.99,
+        oldPrice: 29.99,
+        rating: 4.6,
+        reviews: 78,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Variety pack with multiple flavors."
+    },
+    {
+        id: 18,
+        name: "ABO Matcha Starter Kit",
+        category: "Instant Matcha",
+        type: "Multi Set",
+        flavour: "Original",
+        price: 49.00,
+        oldPrice: 58.00,
+        rating: 5,
+        reviews: 156,
+        image: "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=400&h=400&fit=crop",
+        badge: null,
+        description: "Everything you need to start your matcha journey."
     }
 ];
-
-// Additional products to reach 48 total
-for (let i = 13; i <= 48; i++) {
-    const baseProduct = products[i % 12];
-    products.push({
-        ...baseProduct,
-        id: i,
-        name: `${baseProduct.name} - Variant ${i}`,
-        reviews: Math.floor(Math.random() * 200) + 20
-    });
-}
