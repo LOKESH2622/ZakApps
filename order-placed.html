@@ -7,66 +7,54 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Top Bar -->
+    
     <div class="top-bar">
-        <div class="top-bar-left">
-            <div class="currency-selector">
-                <span>USD</span>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="white">
-                    <path d="M6 9L2 5h8z"/>
-                </svg>
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-left">
+                    <div class="currency-selector">
+                        <span>USD</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="white">
+                            <path d="M6 9L2 5h8z"/>
+                        </svg>
+                    </div>
+                    <div class="stores">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>Stores</span>
+                    </div>
+                </div>
+                <div class="top-bar-right">
+                    <a href="#">Login/ Register</a>
+                </div>
             </div>
-            <div class="stores">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                </svg>
-                <span>Stores</span>
-            </div>
-        </div>
-        <div class="top-bar-right">
-            <a href="#">Login/ Register</a>
         </div>
     </div>
 
-    <!-- Main Header -->
+
     <header class="main-header">
         <div class="container">
             <div class="header-content">
-                <div class="logo" onclick="window.location.href='index.html'">
-                    <svg width="40" height="40" viewBox="0 0 40 40">
-                        <circle cx="20" cy="20" r="18" fill="none" stroke="#000" stroke-width="2"/>
-                        <circle cx="20" cy="20" r="12" fill="#000"/>
-                        <circle cx="15" cy="15" r="3" fill="white"/>
-                        <circle cx="25" cy="15" r="3" fill="white"/>
-                        <circle cx="15" cy="25" r="3" fill="white"/>
-                        <circle cx="25" cy="25" r="3" fill="white"/>
-                    </svg>
+                <a href="index.html" class="logo">
+                    <div class="logo-circle"></div>
                     <span>ABOKICHI</span>
-                </div>
+                </a>
                 <nav class="main-nav">
-                    <a href="#" class="nav-dropdown">Shop <svg width="10" height="10" viewBox="0 0 10 10"><path d="M5 7L2 4h6z"/></svg></a>
-                    <a href="#">Our story</a>
-                    <a href="#">Recipes</a>
-                    <a href="#">Contact</a>
+                    <a href="products.html">Shop</a>
+                    <a href="products.html">Our story</a>
+                    <a href="products.html">Recipes</a>
+                    <a href="products.html">Contact</a>
                 </nav>
                 <div class="header-icons">
                     <div class="icon-btn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <path d="m21 21-4.35-4.35"></path>
-                        </svg>
+                        <img src="search.png" alt="Search" width="24" height="24">
                     </div>
                     <div class="icon-btn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                        </svg>
+                        <img src="heart.png" alt="Wishlist" width="24" height="24">
                     </div>
                     <div class="icon-btn cart-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                            <line x1="3" y1="6" x2="21" y2="6"></line>
-                            <path d="M16 10a4 4 0 0 1-8 0"></path>
-                        </svg>
+                        <img src="shopping.png" width="24" height="24">
                         <span class="cart-count" id="cartCount">0</span>
                     </div>
                 </div>
@@ -74,7 +62,7 @@
         </div>
     </header>
 
-    <!-- Order Success Section -->
+
     <section class="order-success-section">
         <div class="container">
             <div class="success-card">

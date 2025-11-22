@@ -11,7 +11,7 @@ const products = [
         reviews: 32,
         image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=400&h=400&fit=crop",
         badge: null,
-        description: "Your new cooking BFF! You can add this to virtually everything."
+        description: "Our famous otteri special dish"
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ const products = [
         reviews: 24,
         image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=400&fit=crop",
         badge: null,
-        description: "Three delicious miso soup varieties in one convenient pack."
+        description: "one of the famous one in pullianthope special dish"
     },
     {
         id: 4,
@@ -67,7 +67,7 @@ const products = [
         reviews: 124,
         image: "https://images.unsplash.com/photo-1589729132389-8f0e0b55b91e?w=400&h=400&fit=crop",
         badge: null,
-        description: "Rich and savory garlic-infused miso paste."
+        description: "nungambakkam special dish."
     },
     {
         id: 6,
@@ -95,7 +95,7 @@ const products = [
         reviews: 98,
         image: "https://images.unsplash.com/photo-1617817824775-33c8d451d063?w=400&h=400&fit=crop",
         badge: null,
-        description: "Nutty sesame seeds combined with our signature miso blend."
+        description: "Navalur kolambu rasam"
     },
     {
         id: 8,
@@ -221,7 +221,7 @@ const products = [
         reviews: 112,
         image: "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?w=400&h=400&fit=crop",
         badge: null,
-        description: "Aged black garlic miso blend."
+        description: "thalapakatti thalapakatti Dindugal dindugl Thalapakatti"
     },
     {
         id: 17,
