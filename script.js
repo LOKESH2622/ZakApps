@@ -311,7 +311,7 @@ function renderProductDetail() {
     }
 }
 
-// Change main image
+
 function changeImage(src, thumb) {
     const mainImg = document.getElementById('mainImage');
     if (mainImg) {
@@ -322,7 +322,7 @@ function changeImage(src, thumb) {
     thumb.classList.add('active');
 }
 
-// Buy now
+
 function buyNow() {
     cartCount++;
     updateCartDisplay();
